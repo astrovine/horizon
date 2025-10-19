@@ -2,6 +2,8 @@
 
 A full web social app built with FastAPI (Python) and React (Vite). It includes authentication, posts, votes, profiles and follow graph, feed, and a comments system with threaded replies and likes. The UI supports a dark/light theme toggle and uses a clean, glass‑inspired design.
 
+![Demo of my project](https://github.com/astrovine/horizon/blob/main/frontend/src/Recording%202025-10-19%20125837.gif?raw=true)
+
 ## Table of Contents
 - Overview
 - Features
