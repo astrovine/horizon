@@ -1,0 +1,96 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+.env.production
+
+# Service account and credential files
+!package.json
+!package-lock.json
+!tsconfig.json
+!frontend/package.json
+!frontend/package-lock.json
+credentials/
+.credentials/
+service-account*.json
+abstract-gizmo*.json
+
+# Root level package files (frontend has its own)
+package.json
+package-lock.json
+
+# Fetched and temporary files
+fetched_files/
+temp/
+uploads/
+downloads/
+*.xlsx
+*.xls
+*.csv
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv
+
+# Node modules
+node_modules/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+test_*.py
+tests/check_databases.py
+tests/migrate_data_to_supabase.py
+tests/verify_tables.py
+tests/fetch.py
+
+# Alembic - only keep the necessary files
+alembic/__pycache__/
+alembic/versions/__pycache__/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+log/
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
