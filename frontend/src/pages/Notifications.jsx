@@ -2,7 +2,6 @@ import React from 'react';
 import { Bell, Heart, MessageCircle, UserPlus } from 'lucide-react';
 
 const Notifications = () => {
-  // Mock notifications - you can connect this to a real API later
   const mockNotifications = [
     {
       id: 1,
